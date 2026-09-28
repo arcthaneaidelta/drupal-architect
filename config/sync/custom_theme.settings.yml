@@ -1,0 +1,5 @@
+logo:
+  path: themes/custom_theme/images/logo/drupal.png
+  use_default: false
+_core:
+  default_config_hash: CWl_E93IK2t6Wmzq-_AhEfQoAdwEX-COtlf19yu7e74

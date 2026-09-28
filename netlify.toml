@@ -1,0 +1,8 @@
+[build]
+  publish = "web"
+  command = "" # Drupal typically requires PHP/MySQL backend. Static hosting requires a static site generator like Tome.
+
+[[redirects]]
+  from = "/*"
+  to = "/index.php"
+  status = 200

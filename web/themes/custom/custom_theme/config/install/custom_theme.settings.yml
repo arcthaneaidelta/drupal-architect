@@ -1,0 +1,3 @@
+logo:
+  path: 'themes/custom_theme/images/logo/drupal.png'
+  use_default: false

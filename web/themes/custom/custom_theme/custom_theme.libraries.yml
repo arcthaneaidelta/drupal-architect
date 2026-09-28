@@ -1,0 +1,28 @@
+global-styling:
+  css:
+    component:
+      css/main.css : {}
+  dependencies:
+    - core/jquery
+  js:
+    js/main.js : {}
+bootstrap:
+  css:
+    component:
+      libraries/bootstrap/css/bootstrap.min.css: {}
+  js:
+    libraries/bootstrap/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+owl-carousel:
+  js:
+    libraries/owl-carousel/owl.carousel.js: {}
+  css:
+    component:
+      libraries/owl-carousel/owl.carousel.min.css: {}
+      libraries/owl-carousel/owl.theme.default.min.css: {}
+  dependencies:
+    - core/jquery
+

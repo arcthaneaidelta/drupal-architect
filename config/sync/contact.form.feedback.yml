@@ -1,0 +1,14 @@
+uuid: 2c0118cb-7358-4064-8fd1-292d206bc61d
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - adrian.sanchez@fhios.es
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

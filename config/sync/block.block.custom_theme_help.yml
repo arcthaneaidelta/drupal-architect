@@ -1,0 +1,22 @@
+uuid: 07392e7f-2604-49a5-9018-dc03c026dbbf
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - custom_theme
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: custom_theme_help
+theme: custom_theme
+region: sidebar_second
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

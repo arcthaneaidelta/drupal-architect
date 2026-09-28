@@ -1,0 +1,23 @@
+name: Custom Theme
+type: theme
+description: 'Custom theme for drupal 8 based on bootstrap'
+package: Other
+core: 8.x
+libraries:
+  - custom_theme/global-styling
+  - custom_theme/bootstrap
+
+base theme: stable
+
+regions:
+  secondary_menu: 'Secondary menu'
+  header: Header
+  primary_menu: 'Primary menu'
+  highlighted: 'Highlighted'
+  breadcrumb: 'Breadcrumb'
+  sidebar_first: 'Sidebar first'
+  content: Content
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+
+screenshot: bootstrap-logo.jpg
