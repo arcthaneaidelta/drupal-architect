@@ -1,8 +1,18 @@
+# Netlify Configuration
 [build]
-  publish = "web"
-  command = "" # Drupal typically requires PHP/MySQL backend. Static hosting requires a static site generator like Tome.
+  publish = "drupal-demo"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=()"
+    Cache-Control = "public, max-age=3600"
 
 [[redirects]]
   from = "/*"
-  to = "/index.php"
+  to = "/index.html"
   status = 200
